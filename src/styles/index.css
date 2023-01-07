@@ -1,0 +1,102 @@
+.game {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.InitialValues{
+  width: max-content;
+ height: max-content;
+ background-color: cadetblue;
+ border-radius: 60% 0px 60% 0px;
+ padding: 3em;
+ margin:0% 0% 0% 30%;
+}
+.statsContainer{
+  color: crimson;
+  font-size: larger;
+  display:flex;
+  flex-flow: column wrap;
+  align-items: baseline;
+}
+.nombres{display: inherit;}
+.nome{color: green;}
+.puntuacion {display: flex;
+flex-flow: row wrap;
+flex-grow: 50px;
+}
+.puntuacion .puntajes{
+  color: green;
+  margin-left: .5em;
+  margin-right: .5em;
+}
+.aviso{
+  margin-left: 30%;
+  margin-top: 1%;
+  color: #666;
+  font-size: 3em;
+}
+.body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* visibility: hidden; */
+}
+
+.help {
+  color: #666;
+  margin: 10px;
+  text-align: center;
+  /* visibility: hidden; */
+}
+
+.left {
+  text-align: center;
+  width: 50%;
+  border: thin solid #ddd;
+}
+
+.right {
+  text-align: center;
+  padding: 10px;
+  width: 50%;
+  border: thin solid #ddd;
+}
+
+.star {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+.star:after {
+  content: '\2605';
+  font-size: 45px;
+}
+
+.number {
+  background-color: #eee;
+  border: thin solid #ddd;
+  width: 45px;
+  height: 45px;
+  margin: 10px;
+  font-size: 25px;
+}
+
+.number:focus,
+.number:active {
+  outline: none;
+  border: thin solid #ddd;
+}
+
+.timer {
+  color: #666;
+  margin-top: 3px;
+  margin-left: 3px;
+  /* visibility: hidden; */
+}
+
+.game-done .message {
+  font-size: 250%;
+  font-weight: bold;
+  margin: 15px;
+}
+
